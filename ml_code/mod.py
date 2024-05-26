@@ -1,6 +1,7 @@
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
+
 def lin_reg(x, y):
     x = np.array(x).reshape(-1, 1)
     y = np.array(y).reshape(-1, 1)
